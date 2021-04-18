@@ -19,6 +19,9 @@ function defeat(){
     ]
 
 }
+function winning(){
+    
+}
 
 ReactDOM.render(
 
