@@ -12,7 +12,7 @@ function defeat(){
     const loser=[
         'Tumse Na ho payenga',
         'Stop gambling your hard earned money',
-        '25 din mein paise kabhi double na hopayenge tere',
+        '25 din mein paise kabhi double nhi hopayenge tumhare',
         'Biggest Loser',
         'Acche din na aayenga tumahare',
         'You can never be a billionaire',
@@ -22,8 +22,15 @@ function defeat(){
 
 }
 //function to display message when person wins the lottery
-function winning(){
-
+function winningSound(){
+    return (
+        <audio autoplay="autoplay" className="player" preload="false">
+          <source src="https://andyhoffman.codes/random-assets/img/slots/winning_slot.wav" />
+        </audio>  
+        );
+}
+class App extends React.Component{
+    
 }
 
 ReactDOM.render(
